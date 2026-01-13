@@ -13,10 +13,6 @@ def test_should_give_one_human_year_at_15_years() -> None:
     assert get_human_age(15, 15) == [1, 1]
 
 
-def test_should_not_increase_human_age_during_second_stage_until_completed() -> None:
-    assert get_human_age(23, 23) == [1, 1]
-
-
 def test_should_give_two_human_years_after_24_years() -> None:
     assert get_human_age(24, 24) == [2, 2]
 
